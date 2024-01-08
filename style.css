@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(image/planeta.jpg);
+  background-size: cover ;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+.input {
+  text-align:center;
+  width: 450px;
+  height: 50px;
+  margin: 5px;
+  padding: 0px,20px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 18px;
+}
+
+.boton-agregar {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(255, 6, 46);
+  color: white;
+}
+
+.boton-agregar:hover{
+cursor: pointer;
+opacity: 0.9 ;
+}
+
+.item-input {
+  width: 70px;
+  height: 50px;
+  padding: 0px 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+  background: none;
+  font-style: italic;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.boton-editar {
+  width: 45px;
+  height: 45px;
+  margin: 0px 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #62d0ff;
+  font-size: 1.4rem;
+  font-family: Montserrat, sans-serif;
+}
+
+.boton-remover {
+  width: 45px;
+  height: 45px;
+  margin: 0px 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(255, 6, 46);
+  font-size: 20px;
+}
+
